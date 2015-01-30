@@ -1,0 +1,15 @@
+
+1) login to github.com
+2) create a new repository "coursera-stanford-algo". Put down a description and specify other settings.
+
+3) go to your workspace directory (git should be installed on local machine)
+4) git init (if not already initialized)
+5) git config --global user.name "Umang Shah" (if not already done)
+6) git config --global user.email "shahumangr@gmail.com" (if not already done)
+
+6) git clone "https://github.com/umangshah/coursera-stanford-algo.git"
+7) git add count_inversion_divide_and_conquer.php
+8) git add IntegerArray.txt
+9) git commit -m "Algo Week 1 - Counting Inversions using Divide and Conquer paradigm"
+10) git remote add algo https://github.com/umangshah/coursera-stanford-algo.git
+11) git push -u algo master (provide git username and password)
